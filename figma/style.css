@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    box-sizing: border-box;
+}
+.kvadrik{
+    display: flex;
+    flex-direction: column;
+    width: 40px;
+    height: 40px;
+    border-radius: 3px;
+    margin-left: 20px;
+    }
+
+    .color{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+    }
+
+    body{
+    background-color: rgb(131, 185, 167);
+    }
