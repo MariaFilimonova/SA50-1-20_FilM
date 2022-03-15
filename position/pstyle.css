@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    box-sizing: border-box;
+}
+
+.body{
+    display: flex;
+}
+
+.number{
+    align-items: flex-start;
+    text-align: center;
+}
+
+.block{
+    width: 100%;
+    height: 100px;
+}
+
+.size{
+    width: 10px;
+    height: 10px;
+   align-items: center;
+
+}
+/*Задание 1*/
+.kv1{
+    border-color: brown;
+    border-style: solid;
+    padding: 5px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+}
+.kv2{
+    border-color: blueviolet;
+    border-style: solid;
+    padding: 5px;
+    margin-bottom: 5px;
+    margin-left: 25px;
+}
+.kv3{
+    border-color: chartreuse;
+    border-style: solid;
+    padding: 5px;
+    margin-left: 45px;
+}
+/*Задание 2*/
+.kv4{
+    background-color: rgb(192, 31, 31);
+    margin-bottom: -3px;
+    margin-left: 5px;
+}
+.kv5{
+    background-color: blueviolet;
+    margin-bottom: -3px;
+    margin-left: 10px;
+}
+.kv6{
+    background-color:chartreuse;
+    margin-left: 15px;
+}
+/*Задание 3*/
+.kv7{
+    background-color: brown;
+    margin-bottom: -3px;
+    margin-left: 5px;
+}
+.kv8{
+    background-color: blueviolet;
+    margin-bottom: -3px;
+    margin-left: 10px;
+    position: relative;
+}
+.kv9{
+    background-color: chartreuse;
+    margin-left: 15px;
+}
+/*Задание 4*/
+.kv10{
+    background-color: aliceblue;
+    position: relative;
+    margin-left: 10px;
+    margin-top: 10px;
+    
+}
+.kv11{
+    background-color: aliceblue;
+    position: relative;
+    margin-left: 60px;
+   margin-top: 30px;
+}
+.kv12{
+    background-color: chartreuse;
+    height: 70px;
+    margin-top: -55px;
+}
+/*Задание 5*/
+.portal{
+    text-align: center;
+    background-color: darkgreen;
+    font-size: 1.5em;
+    position: sticky;
+    top: 0;
+}
+.list{
+    overflow: scroll;
+    height: 100vh;
+}
