@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    box-sizing: border-box;
+}
+div{
+    width: 185px;
+    height: 60px;
+    font-size: 30px;
+    text-align: center;
+ }
+.text{
+    color: rgb(0, 0, 0);
+    border: .7px solid #000;
+    background-color: rgb(100, 209, 136);
+    margin-top: 147px;
+    margin-left: 670px;
+}
+.text:hover{
+    transition: 2s;
+    background-color: rgb(218, 24, 24);
+}
+.touch:active{
+    background-color: brown;
+}
+
+.stylet{
+    background-color: rgb(109, 190, 98);
+    border: .7px solid #000;
+    margin-top: 75px;
+    margin-left: 670px;
+}
